@@ -1,0 +1,1 @@
+SELECT MAX(e.Salary) FROM Employee e WHERE e.Salary != (SELECT MAX(e1.Salary) FROM Employee e1)
