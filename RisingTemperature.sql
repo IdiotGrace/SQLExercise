@@ -1,0 +1,1 @@
+SELECT p.FirstName, p.LastName, a.City, a.State FROM Address a RIGHT OUTER JOIN Person p ON a.PersonId = p.PersonId;
